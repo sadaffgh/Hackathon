@@ -1,6 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1><strong>Hello There </strong>&#x1F44B;</h1>
+    <h3>
+      We`re a small team from Hamburg, working on bringing sustainability and environmental friendliness closer to young kids from all around the world.
+    </h3>
   </div>
 </template>
 
