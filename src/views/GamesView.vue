@@ -3,7 +3,6 @@
         <h1>Comming Soon... &#x1F609;</h1>
         <br><br><br>
         <img alt="construction turtle" src="../assets/construction_turtle.jpg" height=500  width=400>
-
     </div>
 </template>
 
