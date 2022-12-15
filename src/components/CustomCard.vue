@@ -1,7 +1,9 @@
 <template>
-    <Card>
+    <Card class="mb-5">
         <template #header>
-            <img alt="Card thumbnail" :src="entry.thumbnail">
+            <div class="m-3 pt-3">
+                <img alt="Card thumbnail" :src="entry.thumbnail" height=350 width=300>
+            </div>
         </template>
         <template #title>
             {{ entry.title }}
@@ -10,7 +12,9 @@
             {{ entry.content }}
         </template>
         <template #footer>
-            <Button icon="pi pi-play" label="Go to Animation" />
+            <a :href="entry.href" class="p-button-secondary" icon="pi pi-play" style="text-decoration:none">
+            <Button icon="pi pi-play" label="Go to Animation"  />
+            </a>
         </template>
     </Card>
 </template>
@@ -29,6 +33,11 @@ export default {
     components: {
         'Card': Card,
         'Button': Button,
+    },
+    methods: {
+        handleClick(){
+
+        }
     }
 };
 </script>
