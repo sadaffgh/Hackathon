@@ -7,12 +7,18 @@
     <br><br>
     <img alt="about image" src="../assets/planting_seed_animation.gif" height=800 width=1350>
   </div>
+
+  <div class="footer">
+      <AppFooter />
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import AppFooter from '@/AppFooter.vue';
 
 export default {
   name: 'AboutView',
+  AppFooter
 }
 </script>

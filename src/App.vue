@@ -6,8 +6,14 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  <app-footer />
 </template>
-
+<script>
+  import AppFooter from '@/AppFooter.vue';
+  export default {
+    'app-footer': AppFooter,
+  }
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -28,5 +34,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+.footer {
+  color: beige;
+  position: sticky;
 }
 </style>

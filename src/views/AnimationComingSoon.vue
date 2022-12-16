@@ -1,6 +1,6 @@
 <template>
-    <div class="games">
-        <h1>Games</h1>
+    <div class="animation-comingsoon">
+        <h1>We are still workng on this Animation</h1>
         <CommingSoonVue />
     </div>
       <div class="footer">
@@ -14,7 +14,7 @@ import AppFooter from '@/AppFooter.vue';
 
 
 export default {
-    name: 'GamesView',
+    name: 'AnimationCommingSoon',
     components: {
         CommingSoonVue,
         AppFooter

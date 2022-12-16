@@ -10,6 +10,10 @@
       <CustomCard :entry="animation" />
     </div>
   </div>
+
+    <div class="footer">
+      <AppFooter />
+  </div>
 </template>
 
 <script>
@@ -20,6 +24,8 @@ import th3 from "../assets/Story_3.jpg";
 import th4 from "../assets/Story_4.jpg";
 import th5 from "../assets/Story_5.jpg";
 import th6 from "../assets/Story_6.jpg";
+import AppFooter from '@/AppFooter.vue';
+
 
 
 export default {
@@ -70,6 +76,7 @@ export default {
   },
   components: {
     CustomCard: CustomCard,
+    AppFooter
   },
 };
 </script>

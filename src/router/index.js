@@ -3,7 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import GamesView from "../views/GamesView.vue";
 import AnimationsView from "../views/AnimationsView.vue";
-import CommingSoon from "../components/ComingSoon.vue"
+import AnimationComingSoon from "../views/AnimationComingSoon.vue";
 
 
 const routes = [
@@ -38,7 +38,7 @@ const routes = [
   {
     path: "/wip",
     name: "CommingSoon",
-    component: CommingSoon,
+    component: AnimationComingSoon,
   },
 ];
 
