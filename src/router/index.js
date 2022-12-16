@@ -4,7 +4,7 @@ import AboutView from "../views/AboutView.vue";
 import GamesView from "../views/GamesView.vue";
 import AnimationsView from "../views/AnimationsView.vue";
 import AnimationComingSoon from "../views/AnimationComingSoon.vue";
-
+import Page1 from "../views/say-no-to-plastic/Page1.vue"
 
 const routes = [
   {
@@ -39,6 +39,11 @@ const routes = [
     path: "/wip",
     name: "CommingSoon",
     component: AnimationComingSoon,
+  },
+  {
+    path: "/say-no-to-plastic/1",
+    name: "say-no-to-plastic1",
+    component: Page1,
   },
 ];
 

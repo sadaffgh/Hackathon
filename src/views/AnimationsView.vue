@@ -37,7 +37,7 @@ export default {
           thumbnail: th1,
           title: "Say NO to PLASTIC",
           content: "A lot of baby turtles are geting sick. But Why is That? Let's see together and learn about plastic and why it is bad for our environment!",
-          href: "/#/wip"
+          href: "/#/say-no-to-plastic/1"
         },
         {
           thumbnail: th2,
