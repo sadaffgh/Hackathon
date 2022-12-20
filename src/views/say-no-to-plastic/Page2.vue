@@ -1,8 +1,8 @@
 <template>
-    <div class="page1 pt-5" >
-        <h1>Say No to Plastic</h1>
-        <p>written by: Christos kolombos</p>
-        <h3>Click on next button to start your journey</h3>
+    <div class="page2 pt-5" >
+        <h1 class="page2-story">Once upon a time there live a happy turtle family in a beautiful pond. <br>
+        The family included Baba Turtle, Mama Turtle and the siblings Nico and Nona! </h1>
+
 
         <!-- <Splitter layout="vertical" style="height: 300px width: 350px" >
             <SplitterPanel class="flex align-items-center justify-content-center">
@@ -24,16 +24,16 @@
 import NavBtnVue from '@/components/NavBtn.vue';
 
 export default {
-    name: 'Page-1',
+    name: 'Page-2',
     data(){
       return{
         entry: {
           previous: {
-            path: "/#/",
-            disabled: true
+            path: "/#/say-no-to-plastic/1",
+            disabled: false
           },
           next: {
-            path: "/#/say-no-to-plastic/2",
+            path: "/#/say-no-to-plastic/3",
             disabled: false
           },
         }
@@ -47,11 +47,20 @@ export default {
 }
 </script>
 <style>
-.page1 {
+.page2 {
   min-height: 1200px; 
-  background-image: url('../../assets/turtles_on_docks.jpg');
+  background-image: url('../../assets/swimming_turtles.gif');
   background-repeat: no-repeat;
   background-size:cover;
+  align-self: center;
+}
+.page2-story {
+    margin-left: 73%;
+    margin-top: 13%;
+    text-align: center;
+    max-width: 25%;
+    background: rgba(247, 247, 245,0.6);
+    /* font-family: cursive; */
 }
 </style>
 

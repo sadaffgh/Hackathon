@@ -10,20 +10,20 @@
     </p>
     <p>
       Our platform offers two main possibilities of interacting with our content. <br>
-      One option is accessing our pool of <a href="#">animations</a>.
-      Our animations consists of a series of different stories addressing various aspects of sustainability.
+      One option is accessing our pool of <a href="/#/animations">Storybooks</a>.
+      Our Storybooks consists of a series of different stories addressing various aspects of sustainability.
       Please feel free to click on an animation of your choice and enjoy its content. <br>
       The other option will be our series of <a href="/#/games">games</a> through which your child will enjoy learning about the impact of its actions on the environment.
     </p>
     <br>
-    <h4>Essential Links</h4>
+    <!-- <h4>Essential Links</h4>
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
       <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 

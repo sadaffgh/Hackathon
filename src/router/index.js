@@ -5,6 +5,8 @@ import GamesView from "../views/GamesView.vue";
 import AnimationsView from "../views/AnimationsView.vue";
 import AnimationComingSoon from "../views/AnimationComingSoon.vue";
 import Page1 from "../views/say-no-to-plastic/Page1.vue"
+import Page2 from "../views/say-no-to-plastic/Page2.vue";
+import Page3 from "../views/say-no-to-plastic/Page3.vue";
 
 const routes = [
   {
@@ -44,6 +46,16 @@ const routes = [
     path: "/say-no-to-plastic/1",
     name: "say-no-to-plastic1",
     component: Page1,
+  },
+  {
+    path: "/say-no-to-plastic/2",
+    name: "say-no-to-plastic2",
+    component: Page2,
+  },
+  {
+    path: "/say-no-to-plastic/3",
+    name: "say-no-to-plastic3",
+    component: Page3,
   },
 ];
 

@@ -1,10 +1,12 @@
 <template>
+  <link href='https://fonts.googleapis.com/css?family=Mystery Quest' rel='stylesheet'>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/animations">Storybooks</router-link> |
     <router-link to="/games">Games</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+  
   <router-view/>
   <app-footer />
 </template>
@@ -16,8 +18,7 @@
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Mystery Quest';font-size: 22px;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
