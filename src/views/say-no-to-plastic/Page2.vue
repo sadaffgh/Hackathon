@@ -4,14 +4,7 @@
         The family included Baba Turtle, Mama Turtle and the siblings Nico and Nona! </h1>
 
 
-        <!-- <Splitter layout="vertical" style="height: 300px width: 350px" >
-            <SplitterPanel class="flex align-items-center justify-content-center">
-                <img alt="swimming turtles" src="../../assets/swimming_turtles.gif" height=500  width=400>
-            </SplitterPanel>
-            <SplitterPanel>
-                Panel 2
-            </SplitterPanel>
-        </Splitter> -->
+
     </div>
 
     <nav-btn :entry="this.entry" />
@@ -19,8 +12,7 @@
 </template>
 
 <script>
-// import Splitter from 'primevue/splitter';
-// import SplitterPanel from 'primevue/splitterpanel';
+
 import NavBtnVue from '@/components/NavBtn.vue';
 
 export default {
@@ -41,14 +33,12 @@ export default {
     },
     components: {
       "nav-btn": NavBtnVue
-        // Splitter,
-        // SplitterPanel
     }
 }
 </script>
 <style>
 .page2 {
-  min-height: 1200px; 
+  min-height: 1400px; 
   background-image: url('../../assets/swimming_turtles.gif');
   background-repeat: no-repeat;
   background-size:cover;
@@ -60,7 +50,6 @@ export default {
     text-align: center;
     max-width: 25%;
     background: rgba(247, 247, 245,0.6);
-    /* font-family: cursive; */
 }
 </style>
 

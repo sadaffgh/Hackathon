@@ -39,8 +39,8 @@ export default {
 </script>
 <style>
 .page3 {
-  min-height: 1200px; 
-  background-image: url('../../assets/swimming_turtles.gif');
+  min-height: 1400px; 
+  background-image: url('../../assets/swimming_turtle.gif');
   background-repeat: no-repeat;
   background-size:cover;
   align-self: center;
