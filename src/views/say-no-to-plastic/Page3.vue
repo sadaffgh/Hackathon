@@ -40,14 +40,14 @@ export default {
 <style>
 .page3 {
   min-height: 1400px; 
-  background-image: url('../../assets/swimming_turtle.gif');
+  background-image: url('../../assets/dancing_turtles.gif');
   background-repeat: no-repeat;
   background-size:cover;
   align-self: center;
 }
 .page3-story {
-    margin-left: 73%;
-    margin-top: 13%;
+    margin-left: 10%;
+    margin-top: 5%;
     text-align: center;
     max-width: 25%;
     background: rgba(247, 247, 245,0.6);
