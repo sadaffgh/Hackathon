@@ -1,6 +1,6 @@
 # Hackathon
 
-## About The Project
+## About the project
 
 The goal of the project is to build an online platform through which kids (6 - 10yrs) can learn and have initial contact with various environmental issues. The product will have illustrated books and games as educational material for the kids.
 
