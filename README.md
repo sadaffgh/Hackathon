@@ -1,5 +1,8 @@
 # Hackathon
 
+## About The Project
+ place holder
+
 ## Project setup
 ```
 npm install
