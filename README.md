@@ -1,6 +1,6 @@
 # Hackathon
 
-## About The Project
+# About The Project
  place holder
 
 ## Project setup
